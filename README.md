@@ -14,9 +14,15 @@ cd <dir>
 scl enable git19 -- git checkout <tag/branch>
 ```
 
-You will not need to do anything beyond this as all necessary assets are
-installed. You will also not need to restart this app as it isn't a Passenger
-app.
+To install the current version of rclone:
+
+```sh
+sh install_rclone.sh
+```
+
+If you want to run RClone CLI, simply use the RClone executable under the `rclone-*-linux-amd64` folder as [here](https://rclone.org/docs/). 
+
+You will also not need to restart this app as it isn't a Passenger app.
 
 To update the app you would:
 
