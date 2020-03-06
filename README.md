@@ -3,6 +3,12 @@
 An interactive app designed for OSC OnDemand that launches an RClone Server
 within a Quick batch job.
 
+## State
+
+This application is in an alpha state. It is currently a proof of concept and
+does not run in production at OSC. It is meant to be an example and something
+build on.
+
 ## Install
 
 Use git to clone this app and checkout the desired branch/version you want to
